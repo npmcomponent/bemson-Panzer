@@ -43,7 +43,7 @@
         },
         version: '0.3.10'
       },
-      genData = (inCJS || inAMD) ? require('genData') : scope.genData,
+      genData = (inCJS || inAMD) ? require('bemson-genData') : scope.genData,
       panzerInstanceCount = 0,
       postCallbackCount = 0,
       ObjecttoStringResult = ({}).toString(),
